@@ -6,3 +6,6 @@ def circle (r):
         chuvi = 2 * math.pi * r
         dientich = math.pi * r**2
         return chuvi , dientich
+
+ex = (15)
+print (circle (ex))

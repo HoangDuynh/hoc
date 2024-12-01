@@ -8,3 +8,6 @@ def prime (n):
             if n % i == 0:
                 return ("Khong phai so nguyen to")
         return ("So nguyen to")
+    
+ex = (158)
+print (prime (ex))

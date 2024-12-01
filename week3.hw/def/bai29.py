@@ -4,3 +4,5 @@ def count_char (str, char):
         if c == char:
             count += 1
     return count
+ex = ('guava', 'a')
+print (count_char(*ex))

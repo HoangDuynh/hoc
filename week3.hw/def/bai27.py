@@ -13,3 +13,6 @@ def Fibonacci (n):
                 break
             a, b = b, a + b
         return ("So Fibonacci thu ", (n), "la: ", (b))
+    
+ex = (17)
+print (Fibonacci(ex))

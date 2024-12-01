@@ -4,4 +4,7 @@ def bang_cuu_chuong (n):
     else:
         for i in range (1, n+1):
             for j in range (1, n+1):
-                return ((i), "x", (j), "=", (i*j))
+                print ((i), "x", (j), "=", (i*j))
+        return True
+ex = (10)
+print (bang_cuu_chuong(ex))
